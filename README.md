@@ -120,4 +120,4 @@ zxcvbn-elixir      0.0397 K - 88.44x slower +24.93 ms
 
 ## License
 
-See LICENSE file.
+See LICENSE.md file.
