@@ -1,0 +1,14 @@
+[package]
+name = "zxcvbn_wrapper"
+version = "0.0.0"
+authors = ["Svilen Gospodinov <webmaster@s2g.io>"]
+edition = "2018"
+
+[lib]
+name = "zxcvbn_wrapper"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "0.21.0"
+zxcvbn = "2.0.1"
