@@ -23,4 +23,6 @@ erl_crash.dump
 zxcvbn-*.tar
 
 .elixir_ls
+priv/native/*.so
+native/zxcvbn_wrapper/target
 
