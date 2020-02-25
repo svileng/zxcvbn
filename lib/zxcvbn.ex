@@ -32,7 +32,7 @@ defmodule Zxcvbn do
 
   As described in the original `zxcvbn` documentation, the custom dictionaries should be a list of strings.
   """
-  use Rustler, otp_app: :zxcvbn, crate: "zxcvbn_wrapper"
+  use Rustler, otp_app: :zxcvbn_nif, crate: "zxcvbn_wrapper"
 
   defp run_nif(_, _), do: :erlang.nif_error(:nif_not_loaded)
 

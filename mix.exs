@@ -1,11 +1,11 @@
 defmodule Zxcvbn.MixProject do
   use Mix.Project
 
-  @version "1.0.1"
+  @version "1.0.2"
 
   def project do
     [
-      app: :zxcvbn,
+      app: :zxcvbn_nif,
       version: @version,
       elixir: "~> 1.9",
       name: "zxcvbn",
@@ -21,7 +21,7 @@ defmodule Zxcvbn.MixProject do
         maintainers: ["Svilen Gospodinov <webmaster@s2g.io>"],
         licenses: ["MIT"],
         links: %{Github: "https://github.com/svileng/zxcvbn"},
-        files: ["lib", "native", "mix.exs", "README.md", "LICENSE.md"],
+        files: ["lib", "native", "mix.exs", "README.md", "LICENSE.md"]
       ],
       docs: [
         main: "zxcvbn",
