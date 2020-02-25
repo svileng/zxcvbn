@@ -8,6 +8,8 @@ defmodule Zxcvbn.MixProject do
       app: :zxcvbn,
       version: @version,
       elixir: "~> 1.9",
+      name: "zxcvbn",
+      description: "zxcvbn for Elixir using Rust NIF.",
       deps: [
         {:rustler, "~> 0.21.0"},
         {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},

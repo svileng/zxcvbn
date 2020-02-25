@@ -1,4 +1,4 @@
-# Zxcvbn for Elixir (Rust NIF) [![hex.pm](https://img.shields.io/hexpm/v/zxcvbn_nif.svg?style=flat-square)](https://hex.pm/packages/zxcvbn_nif) [![hexdocs.pm](https://img.shields.io/badge/docs-latest-green.svg?style=flat-square)](https://hexdocs.pm/zxcvbn_nif)
+# zxcvbn for Elixir (Rust NIF) [![hex.pm](https://img.shields.io/hexpm/v/zxcvbn_nif.svg?style=flat-square)](https://hex.pm/packages/zxcvbn_nif) [![hexdocs.pm](https://img.shields.io/badge/docs-latest-green.svg?style=flat-square)](https://hexdocs.pm/zxcvbn_nif)
 
 This library is based on the [zxcvbn-rs](https://github.com/shssoichiro/zxcvbn-rs) package written in Rust. It is ported to Elixir as a NIF and offers significantly improved performance over other Elixir libraries.
 
