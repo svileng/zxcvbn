@@ -1,14 +1,14 @@
 defmodule Zxcvbn.MixProject do
   use Mix.Project
 
-  @version "1.0.2"
+  @version "1.0.3"
 
   def project do
     [
       app: :zxcvbn_nif,
       version: @version,
       elixir: "~> 1.9",
-      name: "zxcvbn",
+      name: "Zxcvbn",
       description: "zxcvbn for Elixir using Rust NIF.",
       deps: [
         {:rustler, "~> 0.21.0"},
