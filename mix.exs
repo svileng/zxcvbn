@@ -1,7 +1,7 @@
 defmodule Zxcvbn.MixProject do
   use Mix.Project
 
-  @version "1.0.3"
+  @version "1.0.4"
 
   def project do
     [
@@ -11,7 +11,7 @@ defmodule Zxcvbn.MixProject do
       name: "Zxcvbn",
       description: "zxcvbn for Elixir using Rust NIF.",
       deps: [
-        {:rustler, "~> 0.21.0"},
+        {:rustler, "~> 0.22.0"},
         {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
         {:benchee, "~> 1.0", only: :dev}
         # {:zxcvbn, "~> 0.1.3", only: :dev}
@@ -28,9 +28,7 @@ defmodule Zxcvbn.MixProject do
         canonical: "http://hexdocs.pm/zxcvbn",
         source_url: "https://github.com/svileng/zxcvbn",
         source_ref: @version
-      ],
-      compilers: [:rustler] ++ Mix.compilers(),
-      rustler_crates: [zxcvbn_wrapper: []]
+      ]
     ]
   end
 end
