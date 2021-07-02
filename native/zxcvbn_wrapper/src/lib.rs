@@ -24,14 +24,6 @@ mod atoms {
     }
 }
 
-// rustler_export_nifs! {
-//   "Elixir.Zxcvbn",
-//   [
-//       ("run_nif", 2, run, SchedulerFlags::DirtyCpu)
-//   ],
-//   None
-// }
-
 rustler::init!("Elixir.Zxcvbn", [run]);
 
 struct EntropyWrap {

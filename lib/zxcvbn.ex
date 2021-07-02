@@ -22,7 +22,7 @@ defmodule Zxcvbn do
         score: 0
       }}
 
-  The result will be either `{:ok, result}` or `{:error, "blank_password"}`.
+  The result will be either `{:ok, result}`, `{:error, "blank_password"}` or `{:error, "duration_out_of_range"}`.
 
   The keys found in a successful response are documented in the [original `zxcvbn` repository](https://github.com/dropbox/zxcvbn) by Dropbox. Note that not all keys from the original library are implemented in `zxcvbn_nif`.
 
