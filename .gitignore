@@ -25,5 +25,3 @@ zxcvbn-*.tar
 .elixir_ls
 priv/native/*.so
 native/zxcvbn_wrapper/target
-native/zxcvbn_wrapper/Cargo.lock
-
